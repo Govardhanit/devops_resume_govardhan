@@ -121,7 +121,7 @@ const Index = () => {
       
       <Navigation />
       
-      <div className="flex flex-col lg:flex-row items-center justify-between min-h-screen px-6 lg:px-12 relative z-10">
+  <div className="flex flex-col lg:flex-row items-center justify-between min-h-screen px-6 lg:px-12 relative z-10 pt-24 sm:pt-28">
         {/* Left Side - Content */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
